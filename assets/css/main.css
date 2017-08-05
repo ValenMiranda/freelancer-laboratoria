@@ -128,3 +128,52 @@ header h1{
 .btn-contact:hover{
 	background-color: #13947B;
 }
+
+/*Footer*/
+.first-footer{
+	background-color: #2c3e50;
+	padding: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.first-footer h4{
+	margin-bottom: 40px;
+	font-size: 23px;
+}
+
+.first-footer a{
+	text-decoration: none;
+	color: #18bc9c;
+}
+.first-footer a:hover{
+	text-decoration: underline;
+}
+.second-footer{
+	background-color: #233140;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+
+.first-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.first-footer i{
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	padding-top: 14px;
+}
+
+.first-footer i:hover{
+	color: #18bc9c;
+	background-color: #fff;
+}

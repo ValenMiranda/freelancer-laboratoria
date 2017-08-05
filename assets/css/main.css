@@ -65,3 +65,32 @@ header h1{
 	cursor: pointer;
 	position: relative;
 }
+
+/*About*/
+#about{
+	background-color: #18bc9c;
+	color: #fff;
+	padding: 100px;
+}
+.text{
+	text-align: left;
+	padding: 0 100px;
+	font-size: 20px;
+}
+.btn-about {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 15px 20px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	font-size: 17px;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-about i{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.btn-about:hover {
+	background-color: #fff;
+	color: #18bc9c;
+}

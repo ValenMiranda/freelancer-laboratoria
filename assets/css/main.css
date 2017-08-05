@@ -94,3 +94,37 @@ header h1{
 	background-color: #fff;
 	color: #18bc9c;
 }
+
+/*Contact*/
+#contact{
+	color: #2c3e50;
+}
+.about-form{
+	text-align: center;
+}
+.about-form input {
+	width: 70%;
+	border: none;
+	height: 80px;
+	border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.about-form input::placeholder{
+	font-size: 20px;
+	color: #C6C3C7;
+}
+.btn-contact{
+	margin-left: 200px;
+	float: left;
+	background-color: #18bc9c;
+	padding: 15px;
+	border: none;
+	border-radius: 7px;
+	font-size: 17px;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-contact:hover{
+	background-color: #13947B;
+}

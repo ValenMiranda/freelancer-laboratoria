@@ -177,3 +177,110 @@ header h1{
 	color: #18bc9c;
 	background-color: #fff;
 }
+
+
+/*SCROLL MENU*/
+.scroll-menu{
+	padding: 10px;
+}
+.scroll-menu h3{
+	font-size: 25px;
+}
+.scroll-menu .menu{
+	margin-top: 10px;
+}
+
+.menu-scroll-hover{
+	background-color: #18bc9c;
+}
+
+/*Galeria*/
+#gallery{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	display: none;
+	z-index: 1000;
+	overflow-x: hidden;
+	min-height: 100%;
+    padding: 70px 0;
+
+}
+
+#gallery img {
+	width: 40%;
+}
+#gallery h2{
+	color: #2c3e50;
+}
+.paragraph{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 20px;
+	color: #4A4746;
+}
+.paragraph a {
+	text-decoration: none;
+	 color: #18bc9c;
+}
+.paragraph-gallery .fa-times{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  margin-left: 250px;
+  color: #4A4746;
+}
+.links{
+	display: inline-block;
+	margin: 40px 10px;
+	color: #4A4746;
+}
+.links a {
+	text-decoration: none;
+	color: #18bc9c;
+}
+
+#gallery button{
+	padding: 10px;
+	border: none;
+	border: 1px solid #4A4746;
+	border-radius: 5px;
+}
+#gallery button i{
+	margin-right: 10px;
+}
+/*GALLLERY HOVER*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-left: 12px;
+  margin-top: 10px;
+  width: 95%;
+  height: 93%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(24, 188, 156, 0.8);
+}
+
+.portfolio-info:hover .overlay {
+  opacity: 1;
+}
+
+.textOver .fa-search-plus {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
